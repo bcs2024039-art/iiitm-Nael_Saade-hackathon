@@ -1,0 +1,52 @@
+{
+  "_meta": {
+    "note": "Illustrative stress-scenario library. Shocks are defined at FULL severity (impact score = 10) and scaled linearly by impact/10. Orders of magnitude are loosely inspired by historical episodes (2008 credit crisis, 2020 pandemic sell-off, 2022 rate shock, 2022 energy/geopolitical shock, 2023 regional-bank stress) - they are NOT regulatory calibrations (CCAR/EBA/ICAAP).",
+    "loan_loss_horizon_years_cap": 3.0
+  },
+  "scenarios": {
+    "Geopolitical": {
+      "description": "Military / sanctions / shipping-lane shock: flight to quality, energy spike, risk-off",
+      "equity_pct": -0.12, "rate_bp": -30, "spread_bp": 100, "pd_multiplier": 1.7,
+      "fx_vs_usd_pct": {"EUR": -0.04, "GBP": -0.03, "JPY": 0.02, "INR": -0.05},
+      "sector_equity_adj_pct": {"Energy": 0.15, "Industrials": -0.04, "Consumer Discretionary": -0.03},
+      "sector_pd_factor": {"Energy": 0.4, "Industrials": 1.2, "Consumer Discretionary": 1.2}
+    },
+    "Macroeconomic": {
+      "description": "Surprise monetary tightening / inflation shock: rates up, valuations and real estate hit",
+      "equity_pct": -0.10, "rate_bp": 150, "spread_bp": 80, "pd_multiplier": 1.6,
+      "fx_vs_usd_pct": {"EUR": -0.02, "GBP": -0.02, "JPY": -0.04, "INR": -0.03},
+      "sector_equity_adj_pct": {"Real Estate": -0.08, "Utilities": -0.04, "Information Technology": -0.03, "Financials": 0.02},
+      "sector_pd_factor": {"Real Estate": 1.4, "Consumer Discretionary": 1.2, "Utilities": 1.1}
+    },
+    "Credit Event": {
+      "description": "Bank failure / sovereign or large-corporate default: funding stress, spread blow-out, contagion",
+      "equity_pct": -0.14, "rate_bp": -40, "spread_bp": 180, "pd_multiplier": 2.4,
+      "fx_vs_usd_pct": {"EUR": -0.02, "GBP": -0.02, "JPY": 0.03, "INR": -0.03},
+      "sector_equity_adj_pct": {"Financials": -0.10},
+      "sector_pd_factor": {"Financials": 1.4, "Real Estate": 1.3}
+    },
+    "Operational/Cyber": {
+      "description": "Systemic cyber / payments-infrastructure outage: operational loss and confidence shock",
+      "equity_pct": -0.05, "rate_bp": -10, "spread_bp": 30, "pd_multiplier": 1.2,
+      "fx_vs_usd_pct": {},
+      "sector_equity_adj_pct": {"Financials": -0.04, "Information Technology": -0.03},
+      "sector_pd_factor": {"Financials": 1.2}
+    },
+    "Natural Disaster/Pandemic": {
+      "description": "Catastrophe / pandemic: demand collapse in travel and cyclicals, defensive rotation",
+      "equity_pct": -0.18, "rate_bp": -60, "spread_bp": 150, "pd_multiplier": 2.0,
+      "fx_vs_usd_pct": {"EUR": -0.02, "GBP": -0.03, "JPY": 0.02, "INR": -0.04},
+      "sector_equity_adj_pct": {"Health Care": 0.06, "Consumer Staples": 0.02, "Industrials": -0.06, "Consumer Discretionary": -0.08, "Energy": -0.08},
+      "sector_pd_factor": {"Consumer Discretionary": 1.4, "Industrials": 1.3, "Energy": 1.2}
+    },
+    "Regulatory/Legal": {
+      "description": "Sector-wide regulatory action (antitrust / privacy / conduct): contained equity and spread impact",
+      "equity_pct": -0.03, "rate_bp": 0, "spread_bp": 15, "pd_multiplier": 1.1,
+      "fx_vs_usd_pct": {},
+      "sector_equity_adj_pct": {"Information Technology": -0.05, "Financials": -0.04},
+      "sector_pd_factor": {}
+    }
+  },
+  "rating_spread_beta": {"AAA": 0.4, "AA": 0.5, "A": 0.75, "BBB": 1.0, "BB": 1.7, "B": 2.4, "CCC": 3.2, "NR": 1.0},
+  "rating_pd_scale": {"AAA": 1.25, "AA": 1.25, "A": 1.25, "BBB": 1.15, "BB": 1.0, "B": 0.9, "CCC": 0.8, "NR": 1.0}
+}

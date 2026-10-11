@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+.DS_Store
+.idea/
+.vscode/
+# secrets / local data
+.env
+data/prices_live.csv
+data/output/live_signals.jsonl
+# model caches
+.cache/
+# Node / Vite
+node_modules/
+dist/
+*.log
+npm-debug.log*
+.env.local
+.env.*.local
+*.tsbuildinfo

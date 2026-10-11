@@ -1,0 +1,86 @@
+position_id,currency,rating,pd_annual,lgd,maturity_years,coupon_pct,mod_duration,convexity,spread_duration,dv01_usd,cs01_usd,direction,beta,fixed_rate,ticker,asset_class,instrument,counterparty,sector,notional_usd_mm,market_value_usd_mm
+P001,USD,BB,0.01258,0.45,6.53,,0.0,,,,,,,False,,Loan,Term Loan,Harbor Provisions Corp,Consumer Staples,31.3,30.767
+P002,USD,BBB,0.00244,0.45,1.07,,0.0,,,,,,,False,,Loan,Term Loan,Redwood Credit Corp,Financials,19.84,19.819
+P003,USD,BB,0.01609,0.45,6.52,,5.21,,,,,,,True,,Loan,Term Loan,Harbor Properties Trust,Real Estate,21.7,21.228
+P004,USD,A,0.00071,0.45,4.97,,3.98,,,,,,,True,,Loan,Term Loan,Kestrel Energy Corp,Energy,29.17,29.143
+P005,USD,BBB,0.00249,0.45,2.68,,2.14,,,,,,,True,,Loan,Term Loan,Harbor Brands Inc,Consumer Discretionary,45.49,45.358
+P006,USD,BBB,0.00263,0.45,1.73,,0.0,,,,,,,False,,Loan,Revolver,Redwood Capital Holdings,Financials,41.44,41.353
+P007,USD,A,0.00096,0.45,5.13,,0.0,,,,,,,False,,Loan,Revolver,Sapphire Petroleum Ltd,Energy,27.1,27.06
+P008,USD,B,0.04662,0.65,3.59,,2.87,,,,,,,True,,Loan,Revolver,Meridian Consumer Goods Inc,Consumer Staples,60.74,55.218
+P009,USD,B,0.03507,0.45,2.66,,0.0,,,,,,,False,,Loan,Term Loan,Evergreen Power Holdings,Energy,55.12,52.809
+P010,USD,BBB,0.00356,0.25,3.14,,2.51,,,,,,,True,,Loan,Revolver,Vertex Retail Group,Consumer Discretionary,41.42,41.307
+P011,USD,BBB,0.00276,0.25,4.58,,0.0,,,,,,,False,,Loan,Term Loan,Sterling Leisure Corp,Consumer Discretionary,127.33,127.067
+P012,USD,AA,0.00024,0.45,5.59,,0.0,,,,,,,False,,Loan,Term Loan,Kestrel Leisure Corp,Consumer Discretionary,96.68,96.649
+P013,USD,A,0.00098,0.65,5.11,,0.0,,,,,,,False,,Loan,Revolver,Falcon Aerospace Corp,Industrials,56.44,56.337
+P014,USD,BBB,0.00185,0.25,1.05,,0.0,,,,,,,False,,Loan,Revolver,Northwind Aerospace Corp,Industrials,29.47,29.457
+P015,USD,BBB,0.0035,0.65,5.83,,0.0,,,,,,,False,,Loan,Term Loan,Meridian Provisions Corp,Consumer Staples,25.09,24.914
+P016,USD,BB,0.01429,0.45,4.66,,0.0,,,,,,,False,,Loan,Term Loan,Ironbridge Industries Ltd,Industrials,51.18,50.195
+P017,USD,A,0.00063,0.45,4.6,,3.68,,,,,,,True,,Loan,Term Loan,Tidewater Water & Power Ltd,Utilities,39.81,39.774
+P018,USD,BB,0.01486,0.25,5.14,,4.11,,,,,,,True,,Loan,Term Loan,Cobalt Health Partners,Health Care,31.54,31.191
+P019,USD,A,0.00059,0.65,1.07,,0.86,,,,,,,True,,Loan,Term Loan,Kestrel Medical Group,Health Care,62.21,62.184
+P020,USD,BBB,0.0028,0.65,3.23,,0.0,,,,,,,False,,Loan,Term Loan,Vertex Logistics Group,Industrials,58.07,57.753
+P021,USD,BB,0.01207,0.25,1.18,,0.0,,,,,,,False,,Loan,Term Loan,Atlas Provisions Corp,Consumer Staples,50.76,50.58
+P022,USD,BB,0.01123,0.25,6.02,,0.0,,,,,,,False,,Loan,Term Loan,Orion Systems Inc,Information Technology,83.64,82.935
+P023,USD,BBB,0.00242,0.45,2.85,,0.0,,,,,,,False,,Loan,Revolver,Aurora Logistics Group,Industrials,16.28,16.234
+P024,USD,BB,0.00685,0.65,4.57,,3.66,,,,,,,True,,Loan,Term Loan,Aurora Biotherapeutics Inc,Health Care,32.27,31.84
+P025,USD,BB,0.01227,0.45,3.84,,0.0,,,,,,,False,,Loan,Term Loan,Sapphire Telecom Group,Communication Services,49.95,49.122
+P026,USD,BBB,0.00248,0.45,6.03,,0.0,,,,,,,False,,Loan,Term Loan,Helios Realty Group,Real Estate,10.0,9.966
+P027,USD,BBB,0.00217,0.45,1.06,,0.0,,,,,,,False,,Loan,Revolver,Redwood Industries Ltd,Industrials,45.29,45.24
+P028,USD,A,0.00059,0.45,2.77,,2.22,,,,,,,True,,Loan,Term Loan,Ironbridge Leisure Corp,Consumer Discretionary,15.84,15.823
+P029,USD,B,0.08228,0.45,1.6,,1.28,,,,,,,True,,Loan,Term Loan,Helios Consumer Goods Inc,Consumer Staples,62.72,59.0
+P030,USD,BBB,0.00225,0.65,4.33,,3.46,,,,,,,True,,Loan,Term Loan,Falcon Foods Ltd,Consumer Staples,51.0,50.777
+P031,USD,B,0.04057,0.25,4.11,,0.0,,,,,,,False,,Loan,Term Loan,Summit Leisure Corp,Consumer Discretionary,30.13,29.212
+P032,USD,BBB,0.00202,0.45,1.8,,0.0,,,,,,,False,,Loan,Term Loan,Granite Leisure Corp,Consumer Discretionary,23.09,23.053
+P033,USD,BBB,0.0034,0.65,4.34,,3.47,,,,,,,True,,Loan,Revolver,Orion Telecom Group,Communication Services,52.19,51.844
+P034,USD,BB,0.01097,0.45,2.82,,0.0,,,,,,,False,,Loan,Term Loan,Cedar Utilities Co,Utilities,58.84,58.021
+P035,USD,B,0.05023,0.25,3.79,,3.03,,,,,,,True,,Loan,Term Loan,Willow Systems Inc,Information Technology,48.16,46.342
+P036,USD,BBB,0.00149,0.45,1.25,,0.0,,,,,,,False,,Loan,Term Loan,Lumen Leisure Corp,Consumer Discretionary,85.52,85.449
+P037,USD,BBB,0.0025,0.6,9.19,4.9,7.14,63.73,6.783,,,,,,,Bond,Corporate Bond,Sapphire Financial Group,Financials,12.25,12.465
+P038,USD,BBB,0.0025,0.6,9.97,4.9,7.759,75.55,7.371,,,,,,,Bond,Corporate Bond,Harbor Aerospace Corp,Industrials,24.72,25.392
+P039,USD,BBB,0.0025,0.6,2.27,4.9,1.862,5.28,1.769,,,,,,,Bond,Corporate Bond,Beacon Systems Inc,Information Technology,35.72,34.668
+P040,USD,AAA,0.0001,0.6,3.98,3.8,3.647,17.24,3.465,,,,,,,Bond,Corporate Bond,Ember Properties Trust,Real Estate,34.86,35.648
+P041,USD,BBB,0.0025,0.6,11.39,4.9,8.35,87.94,7.933,,,,,,,Bond,Corporate Bond,Zenith Telecom Group,Communication Services,31.09,30.834
+P042,USD,A,0.0007,0.6,10.66,4.3,8.62,92.25,8.189,,,,,,,Bond,Corporate Bond,Sterling Retail Group,Consumer Discretionary,15.49,15.65
+P043,USD,A,0.0007,0.6,4.73,4.3,4.415,24.68,4.194,,,,,,,Bond,Corporate Bond,Kestrel Consumer Goods Inc,Consumer Staples,18.37,18.848
+P044,USD,BBB,0.0025,0.6,7.31,4.9,5.807,42.17,5.517,,,,,,,Bond,Corporate Bond,Solstice Retail Group,Consumer Discretionary,38.63,38.005
+P045,USD,BBB,0.0025,0.6,9.93,4.9,7.759,75.55,7.371,,,,,,,Bond,Corporate Bond,Orion Aerospace Corp,Industrials,14.8,14.496
+P046,USD,AA,0.0003,0.6,8.57,4.0,7.435,67.76,7.064,,,,,,,Bond,Corporate Bond,Harbor Energy Corp,Energy,36.74,36.429
+P047,USD,A,0.0007,0.6,5.08,4.3,4.415,24.68,4.194,,,,,,,Bond,Corporate Bond,Monarch Leisure Corp,Consumer Discretionary,21.07,21.582
+P048,USD,BBB,0.0025,0.6,4.24,4.9,3.554,16.54,3.376,,,,,,,Bond,Corporate Bond,Northwind Medical Group,Health Care,20.78,20.694
+P049,USD,BB,0.012,0.6,5.2,6.1,4.201,22.82,3.991,,,,,,,Bond,Corporate Bond,Meridian Retail Group,Consumer Discretionary,30.49,30.986
+P050,USD,A,0.0007,0.6,10.36,4.3,7.991,78.97,7.592,,,,,,,Bond,Corporate Bond,Zenith Consumer Goods Inc,Consumer Staples,60.0,58.597
+P051,USD,AA,0.0003,0.6,11.26,4.0,8.76,94.5,8.322,,,,,,,Bond,Corporate Bond,Lumen Medical Group,Health Care,27.25,26.625
+P052,USD,A,0.0007,0.6,5.33,4.3,4.415,24.68,4.194,,,,,,,Bond,Corporate Bond,Crescent Foods Ltd,Consumer Staples,47.32,47.428
+P053,USD,A,0.0007,0.6,4.65,4.3,4.415,24.68,4.194,,,,,,,Bond,Corporate Bond,Summit Water & Power Ltd,Utilities,29.4,29.516
+P054,USD,BBB,0.0025,0.6,7.54,4.9,6.489,52.58,6.165,,,,,,,Bond,Corporate Bond,Harbor Industries Ltd,Industrials,36.12,36.495
+P055,USD,AAA,,,2.0,3.6,1.897,5.46,0.0,,,,,,,Bond,Government Bond,UST 2Y,Sovereign,144.89,144.894
+P056,USD,AAA,,,5.0,3.8,4.477,25.24,0.0,,,,,,,Bond,Government Bond,UST 5Y,Sovereign,97.85,97.849
+P057,USD,AAA,,,10.0,4.1,8.071,80.15,0.0,,,,,,,Bond,Government Bond,UST 10Y,Sovereign,108.14,108.142
+P058,USD,AAA,,,30.0,4.4,16.482,390.29,0.0,,,,,,,Bond,Government Bond,UST 30Y,Sovereign,107.89,107.894
+P059,USD,NR,,,,,,,,,,,0.6,,PFE,Equity,Equity,Pfizer Inc.,Health Care,12.11,12.111
+P060,USD,NR,,,,,,,,,,,0.9,,XOM,Equity,Equity,Exxon Mobil Corp.,Energy,10.11,10.107
+P061,USD,NR,,,,,,,,,,,1.05,,GOOGL,Equity,Equity,Alphabet Inc.,Communication Services,4.45,4.45
+P062,USD,NR,,,,,,,,,,,0.55,,JNJ,Equity,Equity,Johnson & Johnson,Health Care,6.65,6.652
+P063,USD,NR,,,,,,,,,,,0.45,,PG,Equity,Equity,Procter & Gamble Co.,Consumer Staples,9.81,9.809
+P064,USD,NR,,,,,,,,,,,1.35,,GS,Equity,Equity,Goldman Sachs Group,Financials,25.15,25.154
+P065,USD,NR,,,,,,,,,,,1.7,,NVDA,Equity,Equity,NVIDIA Corp.,Information Technology,9.09,9.087
+P066,USD,NR,,,,,,,,,,,1.2,,AAPL,Equity,Equity,Apple Inc.,Information Technology,11.9,11.896
+P067,USD,NR,,,,,,,,,,,1.2,,DIS,Equity,Equity,Walt Disney Co.,Communication Services,16.52,16.523
+P068,USD,NR,,,,,,,,,,,0.9,,MSFT,Equity,Equity,Microsoft Corp.,Information Technology,13.97,13.968
+P069,USD,A,,,3.0,,,,,60812.0,,1.0,,,,Derivative,Interest Rate Swap,Dealer F,Financials,219.1,-0.69
+P070,USD,A,,,7.0,,,,,123219.0,,-1.0,,,,Derivative,Interest Rate Swap,Dealer E,Financials,205.3,-0.37
+P071,USD,A,,,10.0,,,,,144073.0,,-1.0,,,,Derivative,Interest Rate Swap,Dealer B,Financials,177.6,-0.069
+P072,USD,A,,,3.0,,,,,88462.0,,1.0,,,,Derivative,Interest Rate Swap,Dealer C,Financials,318.8,-1.956
+P073,USD,A,,,5.0,,,,,154156.0,,1.0,,,,Derivative,Interest Rate Swap,Dealer E,Financials,346.3,0.835
+P074,USD,A,,,3.0,,,,,60703.0,,-1.0,,,,Derivative,Interest Rate Swap,Dealer D,Financials,218.7,1.366
+P075,EUR,A,,,0.59,,,,,,,1.0,,,,Derivative,FX Forward,Dealer A,Financials,98.2,-0.066
+P076,GBP,A,,,0.7,,,,,,,-1.0,,,,Derivative,FX Forward,Dealer C,Financials,78.6,-0.023
+P077,JPY,A,,,0.34,,,,,,,-1.0,,,,Derivative,FX Forward,Dealer B,Financials,40.3,0.005
+P078,INR,A,,,0.72,,,,,,,-1.0,,,,Derivative,FX Forward,Dealer A,Financials,76.8,-0.273
+P079,EUR,A,,,0.6,,,,,,,1.0,,,,Derivative,FX Forward,Dealer F,Financials,86.7,-0.341
+P080,GBP,A,,,0.97,,,,,,,-1.0,,,,Derivative,FX Forward,Dealer D,Financials,47.6,-0.063
+P081,USD,BBB,,,5.0,,,,,,23743.0,1.0,,,,Derivative,CDS (Protection Bought),Financials CDS index,Financials,54.0,0.434
+P082,USD,BBB,,,5.0,,,,,,12038.0,1.0,,,,Derivative,CDS (Protection Bought),Energy CDS index,Energy,27.4,0.118
+P083,USD,BBB,,,5.0,,,,,,18044.0,1.0,,,,Derivative,CDS (Protection Bought),Consumer Discretionary CDS index,Consumer Discretionary,41.0,0.375
+P084,USD,BBB,,,5.0,,,,,,8809.0,1.0,,,,Derivative,CDS (Protection Bought),Industrials CDS index,Industrials,20.0,0.181
+P085,USD,BBB,,,5.0,,,,,,9795.0,1.0,,,,Derivative,CDS (Protection Bought),Information Technology CDS index,Information Technology,22.3,0.082

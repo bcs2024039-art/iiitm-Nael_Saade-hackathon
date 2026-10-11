@@ -1,0 +1,8 @@
+{
+  "name": "Foreshock",
+  "description": "Foreshock - AI/NLP financial risk engine transforming unstructured news and social text into structured risk signals, tactical index rebalancing, and event-driven portfolio stress testing.",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

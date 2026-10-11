@@ -1,0 +1,21 @@
+ticker,name,sector,base_weight,beta,prominence,aliases
+AAPL,Apple Inc.,Information Technology,0.05,1.20,1.00,Apple|iPhone|iPad|MacBook|Tim Cook|App Store
+MSFT,Microsoft Corp.,Information Technology,0.05,0.90,1.00,Microsoft|Azure|Copilot|Satya Nadella
+NVDA,NVIDIA Corp.,Information Technology,0.05,1.70,1.00,Nvidia|NVIDIA|GeForce|CUDA|Jensen Huang
+GOOGL,Alphabet Inc.,Communication Services,0.05,1.05,1.00,Alphabet|Google|YouTube|Waymo
+META,Meta Platforms Inc.,Communication Services,0.05,1.25,0.90,Meta Platforms|Meta|Facebook|Instagram|WhatsApp|Zuckerberg
+AMZN,Amazon.com Inc.,Consumer Discretionary,0.05,1.15,1.00,Amazon|AWS|Andy Jassy
+TSLA,Tesla Inc.,Consumer Discretionary,0.05,1.90,0.90,Tesla|Cybertruck|Gigafactory
+JPM,JPMorgan Chase & Co.,Financials,0.05,1.10,1.00,JPMorgan|JP Morgan|Jamie Dimon
+BAC,Bank of America Corp.,Financials,0.05,1.30,0.90,Bank of America|BofA
+GS,Goldman Sachs Group,Financials,0.05,1.35,0.80,Goldman Sachs|Goldman
+XOM,Exxon Mobil Corp.,Energy,0.05,0.90,0.80,Exxon Mobil|ExxonMobil|Exxon
+CVX,Chevron Corp.,Energy,0.05,0.95,0.80,Chevron
+JNJ,Johnson & Johnson,Health Care,0.05,0.55,0.80,Johnson & Johnson|J&J
+PFE,Pfizer Inc.,Health Care,0.05,0.60,0.70,Pfizer
+UNH,UnitedHealth Group,Health Care,0.05,0.60,0.80,UnitedHealth|UnitedHealthcare|Optum
+WMT,Walmart Inc.,Consumer Staples,0.05,0.50,0.80,Walmart
+KO,Coca-Cola Co.,Consumer Staples,0.05,0.55,0.70,Coca-Cola|Coca Cola
+PG,Procter & Gamble Co.,Consumer Staples,0.05,0.45,0.70,Procter & Gamble|P&G
+BA,Boeing Co.,Industrials,0.05,1.40,0.70,Boeing|737 MAX|Dreamliner
+DIS,Walt Disney Co.,Communication Services,0.05,1.20,0.70,Walt Disney|Disney|Disney+

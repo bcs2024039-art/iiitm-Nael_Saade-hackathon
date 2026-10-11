@@ -1,0 +1,1122 @@
+[
+  {
+    "trigger_time": "2026-09-22T18:01:35+00:00",
+    "event_type": "Macroeconomic",
+    "impact_score": 8.69,
+    "sentiment_score": -0.6432,
+    "headline": "Central bank surprises markets with 50 basis point rate hike, signals more tightening",
+    "source": "SynthWire",
+    "value_before": 2757.47,
+    "value_after": 2622.62,
+    "pnl": -134.85,
+    "pnl_pct": -4.89,
+    "result": {
+      "scenario": {
+        "event_type": "Macroeconomic",
+        "impact_score": 8.69,
+        "severity": 0.869,
+        "equity_pct": -8.69,
+        "rate_bp": 130.3,
+        "spread_bp": 69.5,
+        "pd_multiplier": 1.521,
+        "fx_vs_usd_pct": {
+          "EUR": -1.74,
+          "GBP": -1.74,
+          "JPY": -3.48,
+          "INR": -2.61
+        },
+        "description": "Surprise monetary tightening / inflation shock: rates up, valuations and real estate hit"
+      },
+      "value_before": 2757.467,
+      "value_after": 2622.622,
+      "pnl": -134.845,
+      "pnl_pct": -0.0489,
+      "by_asset_class": [
+        {
+          "asset_class": "Bond",
+          "mv_before": 993.137,
+          "pnl": -95.248,
+          "mv_after": 897.889,
+          "pnl_pct": -9.591
+        },
+        {
+          "asset_class": "Loan",
+          "mv_before": 1645.028,
+          "pnl": -32.461,
+          "mv_after": 1612.568,
+          "pnl_pct": -1.973
+        },
+        {
+          "asset_class": "Equity",
+          "mv_before": 119.757,
+          "pnl": -11.353,
+          "mv_after": 108.404,
+          "pnl_pct": -9.48
+        },
+        {
+          "asset_class": "Derivative",
+          "mv_before": -0.455,
+          "pnl": 4.216,
+          "mv_after": 3.761,
+          "pnl_pct": -926.597
+        }
+      ],
+      "by_sector": [
+        {
+          "sector": "Sovereign",
+          "mv_before": 458.779,
+          "pnl": -39.26,
+          "mv_after": 419.519,
+          "pnl_pct": -8.557
+        },
+        {
+          "sector": "Consumer Staples",
+          "mv_before": 405.947,
+          "pnl": -23.821,
+          "mv_after": 382.126,
+          "pnl_pct": -5.868
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "mv_before": 570.518,
+          "pnl": -14.086,
+          "mv_after": 556.432,
+          "pnl_pct": -2.469
+        },
+        {
+          "sector": "Industrials",
+          "mv_before": 331.77,
+          "pnl": -10.54,
+          "mv_after": 321.23,
+          "pnl_pct": -3.177
+        },
+        {
+          "sector": "Health Care",
+          "mv_before": 191.294,
+          "pnl": -10.273,
+          "mv_after": 181.021,
+          "pnl_pct": -5.37
+        },
+        {
+          "sector": "Communication Services",
+          "mv_before": 152.774,
+          "pnl": -9.939,
+          "mv_after": 142.834,
+          "pnl_pct": -6.506
+        },
+        {
+          "sector": "Information Technology",
+          "mv_before": 198.982,
+          "pnl": -8.207,
+          "mv_after": 190.775,
+          "pnl_pct": -4.124
+        },
+        {
+          "sector": "Energy",
+          "mv_before": 155.667,
+          "pnl": -6.808,
+          "mv_after": 148.859,
+          "pnl_pct": -4.373
+        },
+        {
+          "sector": "Utilities",
+          "mv_before": 127.313,
+          "pnl": -4.684,
+          "mv_after": 122.629,
+          "pnl_pct": -3.679
+        },
+        {
+          "sector": "Real Estate",
+          "mv_before": 66.843,
+          "pnl": -3.8,
+          "mv_after": 63.043,
+          "pnl_pct": -5.685
+        },
+        {
+          "sector": "Financials",
+          "mv_before": 97.58,
+          "pnl": -3.428,
+          "mv_after": 94.152,
+          "pnl_pct": -3.513
+        }
+      ],
+      "by_risk_factor": {
+        "Rates": -102.499,
+        "Credit spreads": -12.255,
+        "Credit losses (PD)": -11.122,
+        "Equity": -11.353,
+        "FX": 2.383
+      },
+      "expected_loss_before": 21.792,
+      "expected_loss_after": 32.913,
+      "top_losers": [
+        {
+          "position_id": "P058",
+          "instrument": "Government Bond",
+          "counterparty": "UST 30Y",
+          "sector": "Sovereign",
+          "pnl": -19.603
+        },
+        {
+          "position_id": "P071",
+          "instrument": "Interest Rate Swap",
+          "counterparty": "Dealer B",
+          "sector": "Financials",
+          "pnl": -18.78
+        },
+        {
+          "position_id": "P070",
+          "instrument": "Interest Rate Swap",
+          "counterparty": "Dealer E",
+          "sector": "Financials",
+          "pnl": -16.062
+        },
+        {
+          "position_id": "P057",
+          "instrument": "Government Bond",
+          "counterparty": "UST 10Y",
+          "sector": "Sovereign",
+          "pnl": -10.641
+        },
+        {
+          "position_id": "P050",
+          "instrument": "Corporate Bond",
+          "counterparty": "Zenith Consumer Goods Inc",
+          "sector": "Consumer Staples",
+          "pnl": -8.03
+        },
+        {
+          "position_id": "P074",
+          "instrument": "Interest Rate Swap",
+          "counterparty": "Dealer D",
+          "sector": "Financials",
+          "pnl": -7.913
+        },
+        {
+          "position_id": "P056",
+          "instrument": "Government Bond",
+          "counterparty": "UST 5Y",
+          "sector": "Sovereign",
+          "pnl": -5.5
+        },
+        {
+          "position_id": "P041",
+          "instrument": "Corporate Bond",
+          "counterparty": "Zenith Telecom Group",
+          "sector": "Communication Services",
+          "pnl": -4.826
+        },
+        {
+          "position_id": "P008",
+          "instrument": "Revolver",
+          "counterparty": "Meridian Consumer Goods Inc",
+          "sector": "Consumer Staples",
+          "pnl": -4.657
+        },
+        {
+          "position_id": "P054",
+          "instrument": "Corporate Bond",
+          "counterparty": "Harbor Industries Ltd",
+          "sector": "Industrials",
+          "pnl": -4.488
+        }
+      ],
+      "narrative": "Macroeconomic scenario (impact 8.7/10): equities -8.7%, rates +130bp, credit spreads +70bp, PD multiplier x1.52. Portfolio value $2,757.5M -> $2,622.6M (-134.8M, -4.89%). Largest drag: rates (-102.5M); loan expected loss $21.8M -> $32.9M."
+    }
+  },
+  {
+    "trigger_time": "2026-09-23T07:41:56+00:00",
+    "event_type": "Geopolitical",
+    "impact_score": 9.07,
+    "sentiment_score": -0.7577,
+    "headline": "Naval standoff in Gulf shipping lane halts tanker traffic, crude spikes 9%",
+    "source": "SynthWire",
+    "value_before": 2757.47,
+    "value_after": 2739.07,
+    "pnl": -18.39,
+    "pnl_pct": -0.667,
+    "result": {
+      "scenario": {
+        "event_type": "Geopolitical",
+        "impact_score": 9.07,
+        "severity": 0.907,
+        "equity_pct": -10.88,
+        "rate_bp": -27.2,
+        "spread_bp": 90.7,
+        "pd_multiplier": 1.635,
+        "fx_vs_usd_pct": {
+          "EUR": -3.63,
+          "GBP": -2.72,
+          "JPY": 1.81,
+          "INR": -4.54
+        },
+        "description": "Military / sanctions / shipping-lane shock: flight to quality, energy spike, risk-off"
+      },
+      "value_before": 2757.467,
+      "value_after": 2739.074,
+      "pnl": -18.393,
+      "pnl_pct": -0.0067,
+      "by_asset_class": [
+        {
+          "asset_class": "Equity",
+          "mv_before": 119.757,
+          "pnl": -12.25,
+          "mv_after": 107.507,
+          "pnl_pct": -10.229
+        },
+        {
+          "asset_class": "Loan",
+          "mv_before": 1645.028,
+          "pnl": -8.286,
+          "mv_after": 1636.742,
+          "pnl_pct": -0.504
+        },
+        {
+          "asset_class": "Bond",
+          "mv_before": 993.137,
+          "pnl": -4.572,
+          "mv_after": 988.565,
+          "pnl_pct": -0.46
+        },
+        {
+          "asset_class": "Derivative",
+          "mv_before": -0.455,
+          "pnl": 6.715,
+          "mv_after": 6.26,
+          "pnl_pct": -1475.888
+        }
+      ],
+      "by_sector": [
+        {
+          "sector": "Consumer Staples",
+          "mv_before": 405.947,
+          "pnl": -8.208,
+          "mv_after": 397.739,
+          "pnl_pct": -2.022
+        },
+        {
+          "sector": "Information Technology",
+          "mv_before": 198.982,
+          "pnl": -5.197,
+          "mv_after": 193.786,
+          "pnl_pct": -2.612
+        },
+        {
+          "sector": "Communication Services",
+          "mv_before": 152.774,
+          "pnl": -4.463,
+          "mv_after": 148.311,
+          "pnl_pct": -2.921
+        },
+        {
+          "sector": "Industrials",
+          "mv_before": 331.77,
+          "pnl": -3.634,
+          "mv_after": 328.136,
+          "pnl_pct": -1.095
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "mv_before": 570.518,
+          "pnl": -2.634,
+          "mv_after": 567.884,
+          "pnl_pct": -0.462
+        },
+        {
+          "sector": "Financials",
+          "mv_before": 97.58,
+          "pnl": -1.997,
+          "mv_after": 95.583,
+          "pnl_pct": -2.047
+        },
+        {
+          "sector": "Health Care",
+          "mv_before": 191.294,
+          "pnl": -1.688,
+          "mv_after": 189.606,
+          "pnl_pct": -0.882
+        },
+        {
+          "sector": "Utilities",
+          "mv_before": 127.313,
+          "pnl": -0.633,
+          "mv_after": 126.68,
+          "pnl_pct": -0.498
+        },
+        {
+          "sector": "Real Estate",
+          "mv_before": 66.843,
+          "pnl": -0.115,
+          "mv_after": 66.728,
+          "pnl_pct": -0.172
+        },
+        {
+          "sector": "Energy",
+          "mv_before": 155.667,
+          "pnl": 0.823,
+          "mv_after": 156.49,
+          "pnl_pct": 0.528
+        },
+        {
+          "sector": "Sovereign",
+          "mv_before": 458.779,
+          "pnl": 9.354,
+          "mv_after": 468.133,
+          "pnl_pct": 2.039
+        }
+      ],
+      "by_risk_factor": {
+        "Rates": 23.108,
+        "Credit spreads": -15.989,
+        "Credit losses (PD)": -12.74,
+        "Equity": -12.25,
+        "FX": -0.522
+      },
+      "expected_loss_before": 21.792,
+      "expected_loss_after": 34.532,
+      "top_losers": [
+        {
+          "position_id": "P073",
+          "instrument": "Interest Rate Swap",
+          "counterparty": "Dealer E",
+          "sector": "Financials",
+          "pnl": -4.195
+        },
+        {
+          "position_id": "P064",
+          "instrument": "Equity",
+          "counterparty": "Goldman Sachs Group",
+          "sector": "Financials",
+          "pnl": -3.696
+        },
+        {
+          "position_id": "P075",
+          "instrument": "FX Forward",
+          "counterparty": "Dealer A",
+          "sector": "Financials",
+          "pnl": -3.563
+        },
+        {
+          "position_id": "P079",
+          "instrument": "FX Forward",
+          "counterparty": "Dealer F",
+          "sector": "Financials",
+          "pnl": -3.145
+        },
+        {
+          "position_id": "P008",
+          "instrument": "Revolver",
+          "counterparty": "Meridian Consumer Goods Inc",
+          "sector": "Consumer Staples",
+          "pnl": -2.724
+        },
+        {
+          "position_id": "P072",
+          "instrument": "Interest Rate Swap",
+          "counterparty": "Dealer C",
+          "sector": "Financials",
+          "pnl": -2.407
+        },
+        {
+          "position_id": "P067",
+          "instrument": "Equity",
+          "counterparty": "Walt Disney Co.",
+          "sector": "Communication Services",
+          "pnl": -2.158
+        },
+        {
+          "position_id": "P029",
+          "instrument": "Term Loan",
+          "counterparty": "Helios Consumer Goods Inc",
+          "sector": "Consumer Staples",
+          "pnl": -1.918
+        },
+        {
+          "position_id": "P050",
+          "instrument": "Corporate Bond",
+          "counterparty": "Zenith Consumer Goods Inc",
+          "sector": "Consumer Staples",
+          "pnl": -1.735
+        },
+        {
+          "position_id": "P065",
+          "instrument": "Equity",
+          "counterparty": "NVIDIA Corp.",
+          "sector": "Information Technology",
+          "pnl": -1.681
+        }
+      ],
+      "narrative": "Geopolitical scenario (impact 9.1/10): equities -10.9%, rates -27bp, credit spreads +91bp, PD multiplier x1.63. Portfolio value $2,757.5M -> $2,739.1M (-18.4M, -0.67%). Largest drag: credit spreads (-16.0M); loan expected loss $21.8M -> $34.5M."
+    }
+  },
+  {
+    "trigger_time": "2026-09-24T14:40:00+00:00",
+    "event_type": "Credit Event",
+    "impact_score": 9.49,
+    "sentiment_score": -0.7895,
+    "headline": "Pacific Meridian Bank files for bankruptcy protection after deposit run, regulators step in",
+    "source": "SynthWire",
+    "value_before": 2757.47,
+    "value_after": 2712.86,
+    "pnl": -44.61,
+    "pnl_pct": -1.618,
+    "result": {
+      "scenario": {
+        "event_type": "Credit Event",
+        "impact_score": 9.49,
+        "severity": 0.949,
+        "equity_pct": -13.29,
+        "rate_bp": -38.0,
+        "spread_bp": 170.8,
+        "pd_multiplier": 2.329,
+        "fx_vs_usd_pct": {
+          "EUR": -1.9,
+          "GBP": -1.9,
+          "JPY": 2.85,
+          "INR": -2.85
+        },
+        "description": "Bank failure / sovereign or large-corporate default: funding stress, spread blow-out, contagion"
+      },
+      "value_before": 2757.467,
+      "value_after": 2712.861,
+      "pnl": -44.606,
+      "pnl_pct": -0.0162,
+      "by_asset_class": [
+        {
+          "asset_class": "Loan",
+          "mv_before": 1645.028,
+          "pnl": -21.586,
+          "mv_after": 1623.442,
+          "pnl_pct": -1.312
+        },
+        {
+          "asset_class": "Equity",
+          "mv_before": 119.757,
+          "pnl": -19.02,
+          "mv_after": 100.737,
+          "pnl_pct": -15.882
+        },
+        {
+          "asset_class": "Bond",
+          "mv_before": 993.137,
+          "pnl": -17.23,
+          "mv_after": 975.907,
+          "pnl_pct": -1.735
+        },
+        {
+          "asset_class": "Derivative",
+          "mv_before": -0.455,
+          "pnl": 13.23,
+          "mv_after": 12.775,
+          "pnl_pct": -2907.657
+        }
+      ],
+      "by_sector": [
+        {
+          "sector": "Consumer Staples",
+          "mv_before": 405.947,
+          "pnl": -17.954,
+          "mv_after": 387.993,
+          "pnl_pct": -4.423
+        },
+        {
+          "sector": "Industrials",
+          "mv_before": 331.77,
+          "pnl": -7.398,
+          "mv_after": 324.372,
+          "pnl_pct": -2.23
+        },
+        {
+          "sector": "Communication Services",
+          "mv_before": 152.774,
+          "pnl": -7.382,
+          "mv_after": 145.392,
+          "pnl_pct": -4.832
+        },
+        {
+          "sector": "Information Technology",
+          "mv_before": 198.982,
+          "pnl": -7.32,
+          "mv_after": 191.663,
+          "pnl_pct": -3.679
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "mv_before": 570.518,
+          "pnl": -5.875,
+          "mv_after": 564.643,
+          "pnl_pct": -1.03
+        },
+        {
+          "sector": "Financials",
+          "mv_before": 97.58,
+          "pnl": -3.318,
+          "mv_after": 94.262,
+          "pnl_pct": -3.4
+        },
+        {
+          "sector": "Health Care",
+          "mv_before": 191.294,
+          "pnl": -3.302,
+          "mv_after": 187.992,
+          "pnl_pct": -1.726
+        },
+        {
+          "sector": "Energy",
+          "mv_before": 155.667,
+          "pnl": -2.735,
+          "mv_after": 152.932,
+          "pnl_pct": -1.757
+        },
+        {
+          "sector": "Utilities",
+          "mv_before": 127.313,
+          "pnl": -1.675,
+          "mv_after": 125.638,
+          "pnl_pct": -1.316
+        },
+        {
+          "sector": "Real Estate",
+          "mv_before": 66.843,
+          "pnl": -0.807,
+          "mv_after": 66.036,
+          "pnl_pct": -1.207
+        },
+        {
+          "sector": "Sovereign",
+          "mv_before": 458.779,
+          "pnl": 13.159,
+          "mv_after": 471.938,
+          "pnl_pct": 2.868
+        }
+      ],
+      "by_risk_factor": {
+        "Rates": 32.401,
+        "Credit spreads": -30.112,
+        "Credit losses (PD)": -27.8,
+        "Equity": -19.02,
+        "FX": -0.075
+      },
+      "expected_loss_before": 21.792,
+      "expected_loss_after": 49.592,
+      "top_losers": [
+        {
+          "position_id": "P064",
+          "instrument": "Equity",
+          "counterparty": "Goldman Sachs Group",
+          "sector": "Financials",
+          "pnl": -6.899
+        },
+        {
+          "position_id": "P008",
+          "instrument": "Revolver",
+          "counterparty": "Meridian Consumer Goods Inc",
+          "sector": "Consumer Staples",
+          "pnl": -6.001
+        },
+        {
+          "position_id": "P073",
+          "instrument": "Interest Rate Swap",
+          "counterparty": "Dealer E",
+          "sector": "Financials",
+          "pnl": -5.852
+        },
+        {
+          "position_id": "P029",
+          "instrument": "Term Loan",
+          "counterparty": "Helios Consumer Goods Inc",
+          "sector": "Consumer Staples",
+          "pnl": -4.156
+        },
+        {
+          "position_id": "P050",
+          "instrument": "Corporate Bond",
+          "counterparty": "Zenith Consumer Goods Inc",
+          "sector": "Consumer Staples",
+          "pnl": -3.889
+        },
+        {
+          "position_id": "P072",
+          "instrument": "Interest Rate Swap",
+          "counterparty": "Dealer C",
+          "sector": "Financials",
+          "pnl": -3.358
+        },
+        {
+          "position_id": "P041",
+          "instrument": "Corporate Bond",
+          "counterparty": "Zenith Telecom Group",
+          "sector": "Communication Services",
+          "pnl": -3.181
+        },
+        {
+          "position_id": "P049",
+          "instrument": "Corporate Bond",
+          "counterparty": "Meridian Retail Group",
+          "sector": "Consumer Discretionary",
+          "pnl": -3.092
+        },
+        {
+          "position_id": "P054",
+          "instrument": "Corporate Bond",
+          "counterparty": "Harbor Industries Ltd",
+          "sector": "Industrials",
+          "pnl": -2.931
+        },
+        {
+          "position_id": "P009",
+          "instrument": "Term Loan",
+          "counterparty": "Evergreen Power Holdings",
+          "sector": "Energy",
+          "pnl": -2.767
+        }
+      ],
+      "narrative": "Credit Event scenario (impact 9.5/10): equities -13.3%, rates -38bp, credit spreads +171bp, PD multiplier x2.33. Portfolio value $2,757.5M -> $2,712.9M (-44.6M, -1.62%). Largest drag: credit spreads (-30.1M); loan expected loss $21.8M -> $49.6M."
+    }
+  },
+  {
+    "trigger_time": "2026-09-25T10:10:00+00:00",
+    "event_type": "Natural Disaster/Pandemic",
+    "impact_score": 8.63,
+    "sentiment_score": -0.2919,
+    "headline": "Category 4 hurricane makes landfall on Gulf Coast, refineries shut down and ports closed",
+    "source": "SynthWire",
+    "value_before": 2757.47,
+    "value_after": 2742.93,
+    "pnl": -14.53,
+    "pnl_pct": -0.527,
+    "result": {
+      "scenario": {
+        "event_type": "Natural Disaster/Pandemic",
+        "impact_score": 8.63,
+        "severity": 0.863,
+        "equity_pct": -15.53,
+        "rate_bp": -51.8,
+        "spread_bp": 129.5,
+        "pd_multiplier": 1.863,
+        "fx_vs_usd_pct": {
+          "EUR": -1.73,
+          "GBP": -2.59,
+          "JPY": 1.73,
+          "INR": -3.45
+        },
+        "description": "Catastrophe / pandemic: demand collapse in travel and cyclicals, defensive rotation"
+      },
+      "value_before": 2757.467,
+      "value_after": 2742.935,
+      "pnl": -14.532,
+      "pnl_pct": -0.0053,
+      "by_asset_class": [
+        {
+          "asset_class": "Equity",
+          "mv_before": 119.757,
+          "pnl": -19.004,
+          "mv_after": 100.753,
+          "pnl_pct": -15.868
+        },
+        {
+          "asset_class": "Loan",
+          "mv_before": 1645.028,
+          "pnl": -10.747,
+          "mv_after": 1634.281,
+          "pnl_pct": -0.653
+        },
+        {
+          "asset_class": "Bond",
+          "mv_before": 993.137,
+          "pnl": 2.539,
+          "mv_after": 995.676,
+          "pnl_pct": 0.256
+        },
+        {
+          "asset_class": "Derivative",
+          "mv_before": -0.455,
+          "pnl": 12.679,
+          "mv_after": 12.224,
+          "pnl_pct": -2786.684
+        }
+      ],
+      "by_sector": [
+        {
+          "sector": "Consumer Staples",
+          "mv_before": 405.947,
+          "pnl": -9.571,
+          "mv_after": 396.377,
+          "pnl_pct": -2.358
+        },
+        {
+          "sector": "Information Technology",
+          "mv_before": 198.982,
+          "pnl": -7.049,
+          "mv_after": 191.933,
+          "pnl_pct": -3.543
+        },
+        {
+          "sector": "Communication Services",
+          "mv_before": 152.774,
+          "pnl": -5.729,
+          "mv_after": 147.045,
+          "pnl_pct": -3.75
+        },
+        {
+          "sector": "Industrials",
+          "mv_before": 331.77,
+          "pnl": -4.495,
+          "mv_after": 327.275,
+          "pnl_pct": -1.355
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "mv_before": 570.518,
+          "pnl": -2.859,
+          "mv_after": 567.659,
+          "pnl_pct": -0.501
+        },
+        {
+          "sector": "Energy",
+          "mv_before": 155.667,
+          "pnl": -2.42,
+          "mv_after": 153.247,
+          "pnl_pct": -1.555
+        },
+        {
+          "sector": "Health Care",
+          "mv_before": 191.294,
+          "pnl": -0.596,
+          "mv_after": 190.698,
+          "pnl_pct": -0.312
+        },
+        {
+          "sector": "Utilities",
+          "mv_before": 127.313,
+          "pnl": -0.503,
+          "mv_after": 126.81,
+          "pnl_pct": -0.395
+        },
+        {
+          "sector": "Real Estate",
+          "mv_before": 66.843,
+          "pnl": 0.175,
+          "mv_after": 67.018,
+          "pnl_pct": 0.261
+        },
+        {
+          "sector": "Financials",
+          "mv_before": 97.58,
+          "pnl": 0.372,
+          "mv_after": 97.951,
+          "pnl_pct": 0.381
+        },
+        {
+          "sector": "Sovereign",
+          "mv_before": 458.779,
+          "pnl": 18.144,
+          "mv_after": 476.923,
+          "pnl_pct": 3.955
+        }
+      ],
+      "by_risk_factor": {
+        "Rates": 44.483,
+        "Credit spreads": -22.819,
+        "Credit losses (PD)": -19.224,
+        "Equity": -19.004,
+        "FX": 2.032
+      },
+      "expected_loss_before": 21.792,
+      "expected_loss_after": 41.016,
+      "top_losers": [
+        {
+          "position_id": "P073",
+          "instrument": "Interest Rate Swap",
+          "counterparty": "Dealer E",
+          "sector": "Financials",
+          "pnl": -7.982
+        },
+        {
+          "position_id": "P064",
+          "instrument": "Equity",
+          "counterparty": "Goldman Sachs Group",
+          "sector": "Financials",
+          "pnl": -5.275
+        },
+        {
+          "position_id": "P072",
+          "instrument": "Interest Rate Swap",
+          "counterparty": "Dealer C",
+          "sector": "Financials",
+          "pnl": -4.581
+        },
+        {
+          "position_id": "P008",
+          "instrument": "Revolver",
+          "counterparty": "Meridian Consumer Goods Inc",
+          "sector": "Consumer Staples",
+          "pnl": -3.468
+        },
+        {
+          "position_id": "P069",
+          "instrument": "Interest Rate Swap",
+          "counterparty": "Dealer F",
+          "sector": "Financials",
+          "pnl": -3.149
+        },
+        {
+          "position_id": "P067",
+          "instrument": "Equity",
+          "counterparty": "Walt Disney Co.",
+          "sector": "Communication Services",
+          "pnl": -3.08
+        },
+        {
+          "position_id": "P029",
+          "instrument": "Term Loan",
+          "counterparty": "Helios Consumer Goods Inc",
+          "sector": "Consumer Staples",
+          "pnl": -2.495
+        },
+        {
+          "position_id": "P065",
+          "instrument": "Equity",
+          "counterparty": "NVIDIA Corp.",
+          "sector": "Information Technology",
+          "pnl": -2.4
+        },
+        {
+          "position_id": "P066",
+          "instrument": "Equity",
+          "counterparty": "Apple Inc.",
+          "sector": "Information Technology",
+          "pnl": -2.218
+        },
+        {
+          "position_id": "P009",
+          "instrument": "Term Loan",
+          "counterparty": "Evergreen Power Holdings",
+          "sector": "Energy",
+          "pnl": -2.157
+        }
+      ],
+      "narrative": "Natural Disaster/Pandemic scenario (impact 8.6/10): equities -15.5%, rates -52bp, credit spreads +129bp, PD multiplier x1.86. Portfolio value $2,757.5M -> $2,742.9M (-14.5M, -0.53%). Largest drag: credit spreads (-22.8M); loan expected loss $21.8M -> $41.0M."
+    }
+  },
+  {
+    "trigger_time": "2026-09-25T15:32:00+00:00",
+    "event_type": "Operational/Cyber",
+    "impact_score": 8.08,
+    "sentiment_score": -0.8899,
+    "headline": "Ransomware attack cripples major payments processor, card payments disrupted across banks",
+    "source": "SynthWire",
+    "value_before": 2757.47,
+    "value_after": 2749.92,
+    "pnl": -7.54,
+    "pnl_pct": -0.274,
+    "result": {
+      "scenario": {
+        "event_type": "Operational/Cyber",
+        "impact_score": 8.08,
+        "severity": 0.808,
+        "equity_pct": -4.04,
+        "rate_bp": -8.1,
+        "spread_bp": 24.2,
+        "pd_multiplier": 1.162,
+        "fx_vs_usd_pct": {},
+        "description": "Systemic cyber / payments-infrastructure outage: operational loss and confidence shock"
+      },
+      "value_before": 2757.467,
+      "value_after": 2749.924,
+      "pnl": -7.543,
+      "pnl_pct": -0.0027,
+      "by_asset_class": [
+        {
+          "asset_class": "Equity",
+          "mv_before": 119.757,
+          "pnl": -6.718,
+          "mv_after": 113.039,
+          "pnl_pct": -5.61
+        },
+        {
+          "asset_class": "Loan",
+          "mv_before": 1645.028,
+          "pnl": -2.03,
+          "mv_after": 1642.998,
+          "pnl_pct": -0.123
+        },
+        {
+          "asset_class": "Bond",
+          "mv_before": 993.137,
+          "pnl": -0.75,
+          "mv_after": 992.387,
+          "pnl_pct": -0.075
+        },
+        {
+          "asset_class": "Derivative",
+          "mv_before": -0.455,
+          "pnl": 1.954,
+          "mv_after": 1.499,
+          "pnl_pct": -429.487
+        }
+      ],
+      "by_sector": [
+        {
+          "sector": "Information Technology",
+          "mv_before": 198.982,
+          "pnl": -2.679,
+          "mv_after": 196.303,
+          "pnl_pct": -1.346
+        },
+        {
+          "sector": "Consumer Staples",
+          "mv_before": 405.947,
+          "pnl": -2.077,
+          "mv_after": 403.871,
+          "pnl_pct": -0.512
+        },
+        {
+          "sector": "Financials",
+          "mv_before": 97.58,
+          "pnl": -1.568,
+          "mv_after": 96.012,
+          "pnl_pct": -1.607
+        },
+        {
+          "sector": "Communication Services",
+          "mv_before": 152.774,
+          "pnl": -1.426,
+          "mv_after": 151.347,
+          "pnl_pct": -0.934
+        },
+        {
+          "sector": "Industrials",
+          "mv_before": 331.77,
+          "pnl": -0.863,
+          "mv_after": 330.907,
+          "pnl_pct": -0.26
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "mv_before": 570.518,
+          "pnl": -0.574,
+          "mv_after": 569.944,
+          "pnl_pct": -0.101
+        },
+        {
+          "sector": "Health Care",
+          "mv_before": 191.294,
+          "pnl": -0.521,
+          "mv_after": 190.773,
+          "pnl_pct": -0.272
+        },
+        {
+          "sector": "Energy",
+          "mv_before": 155.667,
+          "pnl": -0.423,
+          "mv_after": 155.244,
+          "pnl_pct": -0.272
+        },
+        {
+          "sector": "Utilities",
+          "mv_before": 127.313,
+          "pnl": -0.14,
+          "mv_after": 127.173,
+          "pnl_pct": -0.11
+        },
+        {
+          "sector": "Real Estate",
+          "mv_before": 66.843,
+          "pnl": -0.008,
+          "mv_after": 66.836,
+          "pnl_pct": -0.011
+        },
+        {
+          "sector": "Sovereign",
+          "mv_before": 458.779,
+          "pnl": 2.736,
+          "mv_after": 461.515,
+          "pnl_pct": 0.596
+        }
+      ],
+      "by_risk_factor": {
+        "Rates": 6.8,
+        "Credit spreads": -4.273,
+        "Credit losses (PD)": -3.353,
+        "Equity": -6.718,
+        "FX": 0.0
+      },
+      "expected_loss_before": 21.792,
+      "expected_loss_after": 25.145,
+      "top_losers": [
+        {
+          "position_id": "P064",
+          "instrument": "Equity",
+          "counterparty": "Goldman Sachs Group",
+          "sector": "Financials",
+          "pnl": -2.185
+        },
+        {
+          "position_id": "P073",
+          "instrument": "Interest Rate Swap",
+          "counterparty": "Dealer E",
+          "sector": "Financials",
+          "pnl": -1.246
+        },
+        {
+          "position_id": "P066",
+          "instrument": "Equity",
+          "counterparty": "Apple Inc.",
+          "sector": "Information Technology",
+          "pnl": -0.865
+        },
+        {
+          "position_id": "P068",
+          "instrument": "Equity",
+          "counterparty": "Microsoft Corp.",
+          "sector": "Information Technology",
+          "pnl": -0.846
+        },
+        {
+          "position_id": "P065",
+          "instrument": "Equity",
+          "counterparty": "NVIDIA Corp.",
+          "sector": "Information Technology",
+          "pnl": -0.844
+        },
+        {
+          "position_id": "P067",
+          "instrument": "Equity",
+          "counterparty": "Walt Disney Co.",
+          "sector": "Communication Services",
+          "pnl": -0.801
+        },
+        {
+          "position_id": "P072",
+          "instrument": "Interest Rate Swap",
+          "counterparty": "Dealer C",
+          "sector": "Financials",
+          "pnl": -0.715
+        },
+        {
+          "position_id": "P008",
+          "instrument": "Revolver",
+          "counterparty": "Meridian Consumer Goods Inc",
+          "sector": "Consumer Staples",
+          "pnl": -0.675
+        },
+        {
+          "position_id": "P069",
+          "instrument": "Interest Rate Swap",
+          "counterparty": "Dealer F",
+          "sector": "Financials",
+          "pnl": -0.491
+        },
+        {
+          "position_id": "P029",
+          "instrument": "Term Loan",
+          "counterparty": "Helios Consumer Goods Inc",
+          "sector": "Consumer Staples",
+          "pnl": -0.479
+        }
+      ],
+      "narrative": "Operational/Cyber scenario (impact 8.1/10): equities -4.0%, rates -8bp, credit spreads +24bp, PD multiplier x1.16. Portfolio value $2,757.5M -> $2,749.9M (-7.5M, -0.27%). Largest drag: equity (-6.7M); loan expected loss $21.8M -> $25.1M."
+    }
+  }
+]

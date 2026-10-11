@@ -1,0 +1,353 @@
+{
+  "dev": {
+    "n": 48,
+    "docs_per_sec": 2108.5,
+    "sentiment": {
+      "accuracy": 0.917,
+      "macro_f1": 0.901,
+      "baseline_plain_vader_accuracy": 0.354,
+      "baseline_plain_vader_macro_f1": 0.341,
+      "per_class": {
+        "negative": {
+          "precision": 0.885,
+          "recall": 1.0,
+          "f1": 0.939,
+          "support": 23
+        },
+        "neutral": {
+          "precision": 1.0,
+          "recall": 0.667,
+          "f1": 0.8,
+          "support": 12
+        },
+        "positive": {
+          "precision": 0.929,
+          "recall": 1.0,
+          "f1": 0.963,
+          "support": 13
+        }
+      }
+    },
+    "event": {
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "baseline_majority_class_accuracy": 0.083,
+      "per_class": {
+        "Geopolitical": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 4
+        },
+        "Macroeconomic": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 4
+        },
+        "Credit Event": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 4
+        },
+        "Merger/Acquisition": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 4
+        },
+        "Earnings/Guidance": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 4
+        },
+        "Product Launch": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 4
+        },
+        "Regulatory/Legal": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 4
+        },
+        "Operational/Cyber": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 4
+        },
+        "Natural Disaster/Pandemic": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 4
+        },
+        "Leadership Change": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 4
+        },
+        "Analyst Action": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 4
+        },
+        "Other": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 4
+        }
+      }
+    },
+    "impact": {
+      "spearman_rho": 0.794,
+      "mae": 1.09,
+      "high_impact_precision": 1.0,
+      "high_impact_recall": 0.778,
+      "gold_high_n": 9
+    },
+    "split": "dev"
+  },
+  "test": {
+    "n": 48,
+    "docs_per_sec": 1983.2,
+    "sentiment": {
+      "accuracy": 0.75,
+      "macro_f1": 0.692,
+      "baseline_plain_vader_accuracy": 0.646,
+      "baseline_plain_vader_macro_f1": 0.632,
+      "per_class": {
+        "negative": {
+          "precision": 0.913,
+          "recall": 0.955,
+          "f1": 0.933,
+          "support": 22
+        },
+        "neutral": {
+          "precision": 0.667,
+          "recall": 0.667,
+          "f1": 0.667,
+          "support": 15
+        },
+        "positive": {
+          "precision": 0.5,
+          "recall": 0.455,
+          "f1": 0.476,
+          "support": 11
+        }
+      }
+    },
+    "event": {
+      "accuracy": 0.938,
+      "macro_f1": 0.937,
+      "baseline_majority_class_accuracy": 0.083,
+      "per_class": {
+        "Geopolitical": {
+          "precision": 1.0,
+          "recall": 0.75,
+          "f1": 0.857,
+          "support": 4
+        },
+        "Macroeconomic": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 4
+        },
+        "Credit Event": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 4
+        },
+        "Merger/Acquisition": {
+          "precision": 0.75,
+          "recall": 0.75,
+          "f1": 0.75,
+          "support": 4
+        },
+        "Earnings/Guidance": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 4
+        },
+        "Product Launch": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 4
+        },
+        "Regulatory/Legal": {
+          "precision": 0.75,
+          "recall": 0.75,
+          "f1": 0.75,
+          "support": 4
+        },
+        "Operational/Cyber": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 4
+        },
+        "Natural Disaster/Pandemic": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 4
+        },
+        "Leadership Change": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 4
+        },
+        "Analyst Action": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 4
+        },
+        "Other": {
+          "precision": 0.8,
+          "recall": 1.0,
+          "f1": 0.889,
+          "support": 4
+        }
+      }
+    },
+    "impact": {
+      "spearman_rho": 0.763,
+      "mae": 1.15,
+      "high_impact_precision": 0.5,
+      "high_impact_recall": 0.5,
+      "gold_high_n": 6
+    },
+    "split": "test"
+  },
+  "all": {
+    "n": 96,
+    "docs_per_sec": 2099.0,
+    "sentiment": {
+      "accuracy": 0.833,
+      "macro_f1": 0.802,
+      "baseline_plain_vader_accuracy": 0.5,
+      "baseline_plain_vader_macro_f1": 0.486,
+      "per_class": {
+        "negative": {
+          "precision": 0.898,
+          "recall": 0.978,
+          "f1": 0.936,
+          "support": 45
+        },
+        "neutral": {
+          "precision": 0.783,
+          "recall": 0.667,
+          "f1": 0.72,
+          "support": 27
+        },
+        "positive": {
+          "precision": 0.75,
+          "recall": 0.75,
+          "f1": 0.75,
+          "support": 24
+        }
+      }
+    },
+    "event": {
+      "accuracy": 0.969,
+      "macro_f1": 0.969,
+      "baseline_majority_class_accuracy": 0.083,
+      "per_class": {
+        "Geopolitical": {
+          "precision": 1.0,
+          "recall": 0.875,
+          "f1": 0.933,
+          "support": 8
+        },
+        "Macroeconomic": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 8
+        },
+        "Credit Event": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 8
+        },
+        "Merger/Acquisition": {
+          "precision": 0.875,
+          "recall": 0.875,
+          "f1": 0.875,
+          "support": 8
+        },
+        "Earnings/Guidance": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 8
+        },
+        "Product Launch": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 8
+        },
+        "Regulatory/Legal": {
+          "precision": 0.875,
+          "recall": 0.875,
+          "f1": 0.875,
+          "support": 8
+        },
+        "Operational/Cyber": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 8
+        },
+        "Natural Disaster/Pandemic": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 8
+        },
+        "Leadership Change": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 8
+        },
+        "Analyst Action": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 8
+        },
+        "Other": {
+          "precision": 0.889,
+          "recall": 1.0,
+          "f1": 0.941,
+          "support": 8
+        }
+      }
+    },
+    "impact": {
+      "spearman_rho": 0.781,
+      "mae": 1.12,
+      "high_impact_precision": 0.769,
+      "high_impact_recall": 0.667,
+      "gold_high_n": 15
+    },
+    "split": "all"
+  }
+}

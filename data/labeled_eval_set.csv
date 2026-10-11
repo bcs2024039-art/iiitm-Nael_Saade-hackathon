@@ -1,0 +1,97 @@
+id,split,source_type,text,gold_sentiment,gold_event,gold_impact
+eval-001,dev,news,Russian forces launch full-scale invasion of Ukraine; oil tops $100 as global stocks tumble,negative,Geopolitical,10
+eval-002,test,news,"US and China agree to extend tariff truce for another 90 days, easing trade fears",positive,Geopolitical,6
+eval-003,dev,social,Sanctions on energy exports just got expanded again. Markets are not going to like this 😟,negative,Geopolitical,6
+eval-004,test,news,Missile strike on commercial vessel in Red Sea forces carriers to reroute around Africa,negative,Geopolitical,7
+eval-005,dev,news,Leaders hold summit on regional security; no breakthrough on border dispute,neutral,Geopolitical,3
+eval-006,test,social,ceasefire holding for third day and oil is giving back its war premium 📉🛢️,positive,Geopolitical,5
+eval-007,dev,news,New export controls on advanced chips target Chinese technology firms,negative,Geopolitical,6
+eval-008,test,news,Snap election called as coalition collapses; investors weigh policy uncertainty,negative,Geopolitical,5
+eval-009,dev,news,"Federal Reserve raises interest rates by 75 basis points, its biggest hike since 1994",negative,Macroeconomic,8
+eval-010,test,news,"US inflation cools to 3.2% in October, bolstering hopes of rate cuts",positive,Macroeconomic,6
+eval-011,dev,news,"Payrolls rise by 250,000, beating forecasts as unemployment holds steady",positive,Macroeconomic,5
+eval-012,test,news,Euro zone economy slips into recession as energy costs bite,negative,Macroeconomic,7
+eval-013,dev,social,CPI print tomorrow. Everyone is nervous 😬,neutral,Macroeconomic,3
+eval-014,test,news,"ECB holds rates steady, signals data-dependent approach",neutral,Macroeconomic,3
+eval-015,dev,news,Treasury yields surge to 16-year high as bond selloff deepens,negative,Macroeconomic,7
+eval-016,test,news,"GDP growth accelerates to 4.9% annualized pace, topping estimates",positive,Macroeconomic,5
+eval-017,dev,news,"Lehman Brothers files for bankruptcy, the largest in US history",negative,Credit Event,10
+eval-018,test,news,"Ratings agency downgrades sovereign debt to junk, citing mounting fiscal risks",negative,Credit Event,8
+eval-019,dev,news,Regional lender halts withdrawals as depositors rush for exits; regulators monitor closely,negative,Credit Event,8
+eval-020,test,news,"Property developer misses bond coupon payment, raising default fears across the sector",negative,Credit Event,8
+eval-021,dev,social,Credit spreads blowing out on high yield... something is breaking 🩸,negative,Credit Event,7
+eval-022,test,news,"Airline secures $2 billion rescue loan, averting near-term insolvency",positive,Credit Event,5
+eval-023,dev,news,Ratings agency upgrades retailer's outlook to positive after debt reduction,positive,Credit Event,3
+eval-024,test,news,Insurer reports surge in loan loss provisions as commercial real estate delinquencies climb,negative,Credit Event,6
+eval-025,dev,news,Pharma group agrees to buy biotech rival at 40% premium in $5 billion deal,positive,Merger/Acquisition,6
+eval-026,test,news,Chipmaker abandons $40 billion takeover after regulators block the deal,negative,Merger/Acquisition,7
+eval-027,dev,social,heard $XYZ might get bought out?? rumor mill is spinning 👀,neutral,Merger/Acquisition,3
+eval-028,test,news,Conglomerate to spin off healthcare unit into separate listed company,neutral,Merger/Acquisition,4
+eval-029,dev,news,Private equity consortium launches hostile bid for retailer,neutral,Merger/Acquisition,5
+eval-030,test,news,"Bank completes merger with regional rival, creating third-largest lender",positive,Merger/Acquisition,5
+eval-031,dev,news,Talks to merge two rival railroads collapse over price,negative,Merger/Acquisition,4
+eval-032,test,news,Energy major sells refining assets for $3.2 billion to focus on renewables,neutral,Merger/Acquisition,4
+eval-033,dev,news,Tech giant posts record quarterly revenue as device sales beat expectations,positive,Earnings/Guidance,5
+eval-034,test,news,"Retailer slashes annual profit forecast, citing weak consumer spending",negative,Earnings/Guidance,6
+eval-035,dev,news,Streaming giant's subscriber growth falls short of estimates; shares plunge 25% after hours,negative,Earnings/Guidance,7
+eval-036,test,social,$NVDA earnings were insane. guidance way above street 🚀,positive,Earnings/Guidance,5
+eval-037,dev,news,Bank reports third-quarter profit in line with analyst expectations,neutral,Earnings/Guidance,3
+eval-038,test,news,Automaker reaffirms full-year guidance despite supply headwinds,neutral,Earnings/Guidance,3
+eval-039,dev,news,Company announces 10% dividend increase and $5 billion share buyback,positive,Earnings/Guidance,4
+eval-040,test,news,"Chip designer warns of weaker data-center demand, trims revenue outlook",negative,Earnings/Guidance,6
+eval-041,dev,news,Tech giant unveils next-generation AI chip claiming twice the performance,positive,Product Launch,4
+eval-042,test,news,Automaker delays launch of new electric SUV by six months,negative,Product Launch,4
+eval-043,dev,social,just saw the new headset demo. honestly underwhelming 😐,negative,Product Launch,2
+eval-044,test,news,FDA approves first once-weekly treatment for type 2 diabetes,positive,Product Launch,5
+eval-045,dev,news,Streaming service introduces cheaper ad-supported tier,neutral,Product Launch,3
+eval-046,test,news,Company launches new cloud service aimed at small businesses,neutral,Product Launch,2
+eval-047,dev,news,Drugmaker's late-stage trial fails to meet primary endpoint,negative,Product Launch,6
+eval-048,test,social,"pre-ordered the new phone, can't wait! 🤩",positive,Product Launch,1
+eval-049,dev,news,EU opens antitrust investigation into cloud provider's licensing practices,negative,Regulatory/Legal,5
+eval-050,test,news,Bank agrees to pay $1.2 billion to settle mortgage-related lawsuit,negative,Regulatory/Legal,5
+eval-051,dev,news,Judge dismisses shareholder lawsuit against drugmaker,positive,Regulatory/Legal,3
+eval-052,test,news,SEC charges executive with insider trading ahead of merger announcement,negative,Regulatory/Legal,4
+eval-053,dev,social,regulators finally fining these guys. about time. $META,negative,Regulatory/Legal,3
+eval-054,test,news,"New data privacy rules take effect next year, raising compliance costs for tech firms",negative,Regulatory/Legal,4
+eval-055,dev,news,Regulator clears pipeline project after environmental review,positive,Regulatory/Legal,3
+eval-056,test,news,Tech giant wins appeal against record antitrust fine,positive,Regulatory/Legal,4
+eval-057,dev,news,Ransomware attack forces hospital operator to shut systems across 30 states,negative,Operational/Cyber,6
+eval-058,test,news,Carmaker recalls 1.2 million vehicles over faulty airbags,negative,Operational/Cyber,5
+eval-059,dev,news,"Port workers' strike enters third day, snarling supply chains on the East Coast",negative,Operational/Cyber,6
+eval-060,test,social,AWS down again?? half the internet is broken 😤 #outage,negative,Operational/Cyber,5
+eval-061,dev,news,Refinery fire halts production at key Gulf Coast plant,negative,Operational/Cyber,5
+eval-062,test,news,Airline cancels hundreds of flights after IT outage grounds fleet,negative,Operational/Cyber,5
+eval-063,dev,news,"Chipmaker says supply chain bottlenecks have eased, expects stronger deliveries",positive,Operational/Cyber,3
+eval-064,test,news,Retailer discloses data breach affecting 40 million customers,negative,Operational/Cyber,6
+eval-065,dev,news,WHO declares coronavirus outbreak a pandemic as cases surge worldwide,negative,Natural Disaster/Pandemic,10
+eval-066,test,news,Category 5 hurricane approaches Florida coast; mandatory evacuations ordered,negative,Natural Disaster/Pandemic,7
+eval-067,dev,news,"Magnitude 7.4 earthquake strikes near major chip manufacturing hub, factories evacuated",negative,Natural Disaster/Pandemic,8
+eval-068,test,news,"Wildfires force evacuation of thousands, utility cuts power to millions",negative,Natural Disaster/Pandemic,6
+eval-069,dev,social,"flooding everywhere here, roads closed, supply trucks stuck 🌊",negative,Natural Disaster/Pandemic,3
+eval-070,test,news,"New viral variant detected, health officials say vaccines remain effective",neutral,Natural Disaster/Pandemic,4
+eval-071,dev,news,"Drought lowers crop yields, pushing wheat prices to multi-year highs",negative,Natural Disaster/Pandemic,5
+eval-072,test,news,"Hurricane weakens to tropical storm, refineries restart operations",positive,Natural Disaster/Pandemic,3
+eval-073,dev,news,"Company names former finance chief as new CEO, effective January",neutral,Leadership Change,3
+eval-074,test,news,CEO resigns abruptly amid board dispute; shares drop 8%,negative,Leadership Change,6
+eval-075,dev,news,"Bank announces CFO to retire after 12 years, successor to be named",neutral,Leadership Change,3
+eval-076,test,news,Activist investor wins two board seats in proxy fight,neutral,Leadership Change,4
+eval-077,dev,social,new CEO is exactly what this company needed. bullish 📈,positive,Leadership Change,2
+eval-078,test,news,"Founder steps down as chairman, handing control to longtime deputy",neutral,Leadership Change,3
+eval-079,dev,news,Retailer's chief executive fired after misconduct investigation,negative,Leadership Change,5
+eval-080,test,news,Tech company hires former rival's executive to lead AI division,neutral,Leadership Change,2
+eval-081,dev,news,"Brokerage upgrades chipmaker to buy, lifts price target to $320",positive,Analyst Action,3
+eval-082,test,news,Analysts downgrade retailer to underperform on margin worries,negative,Analyst Action,3
+eval-083,dev,social,$AAPL PT raised to 250 by 3 more analysts. bullish 🟢,positive,Analyst Action,2
+eval-084,test,news,Bank initiates coverage of software firm with neutral rating,neutral,Analyst Action,2
+eval-085,dev,news,Wall Street analysts slash price targets on cloud stocks after weak guidance,negative,Analyst Action,3
+eval-086,test,social,downgrade on $TSLA?? lol analysts always late 🙄,negative,Analyst Action,2
+eval-087,dev,news,Brokerage names energy producer its top pick for the year,positive,Analyst Action,2
+eval-088,test,news,"Analyst reiterates hold on bank stock, sees limited upside",neutral,Analyst Action,2
+eval-089,dev,news,Local bakery wins award for best croissant in the city,neutral,Other,1
+eval-090,test,social,good morning everyone! ☕ big day ahead,neutral,Other,1
+eval-091,dev,news,City council approves new bike lanes downtown,neutral,Other,1
+eval-092,test,social,"markets closed today, going to the beach 🏖️",neutral,Other,1
+eval-093,dev,news,Study finds remote work boosts productivity for some teams,neutral,Other,1
+eval-094,test,social,lol this chart looks like my heart rate 📈📉,neutral,Other,1
+eval-095,dev,news,Celebrity chef opens new restaurant in downtown,neutral,Other,1
+eval-096,test,social,who's watching the game tonight?,neutral,Other,1
