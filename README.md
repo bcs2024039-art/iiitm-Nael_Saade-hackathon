@@ -1,9 +1,9 @@
 # Foreshock - S&P Global & Crisil Campus Hackathon
 
-**Candidate Name:** [Your Full Name]  
+**Candidate Name:** Nael Saade
 **College Email ID:** bcs_2024039@iiitm.ac.in  
-**College / Campus:** ABV-Indian Institute of Information Technology and Management (ABV-IIITM), Gwalior  
-**Demo Video Link:** [YouTube unlisted link - add after recording]  
+**College:** ABV-Indian Institute of Information Technology and Management (ABV-IIITM), Gwalior  
+**Demo Video Link:** https://youtu.be/Gujn05Yzxr0 
 **Slide Deck Link (if hosted externally):** Not hosted externally. The deck is in this repo: [docs/presentation.pdf](docs/presentation.pdf)
 
 > Foreshock reads financial news and social posts, scores each item for **sentiment** (-1 to +1), **event type** and **impact** (1-10), and feeds those signals into two downstream modules: **Module A**, a tactical index rebalancer, and **Module B**, an event-driven stress tester.
