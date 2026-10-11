@@ -46,7 +46,7 @@ Versions are those npm resolved on 10-11 Oct 2026; the repo has no lockfile, so 
 **Repository layout**
 
 ```text
-iiitm-<your-name>-hackathon/
+iiitm-Nael_Saade-hackathon/
 ├── README.md
 ├── LICENSE                      MIT
 ├── package.json                 dependencies and scripts
@@ -101,8 +101,8 @@ Runtime: Node.js 22.22.0 (npm 10.9.4) on Linux x64. Node 20+ should also work (V
 Step-by-step commands to set up the environment and run the app locally:
 
 ```bash
-git clone https://github.com/<your-github-username>/iiitm-<your-name>-hackathon.git
-cd iiitm-<your-name>-hackathon
+git clone https://github.com/bcs2024039-art/iiitm-Nael_Saade-hackathon/
+cd iiitm-Nael_Saade-hackathon
 npm install
 npm run dev
 ```
