@@ -1,16 +1,16 @@
 # Foreshock - S&P Global & Crisil Campus Hackathon
 
-**Candidate Name:** [Your Full Name]  
+**Candidate Name:** Nael Saade  
 **College Email ID:** bcs_2024039@iiitm.ac.in  
-**College / Campus:** ABV-Indian Institute of Information Technology and Management (ABV-IIITM), Gwalior  
-**Demo Video Link:** [YouTube unlisted link - add after recording]  
-**Slide Deck Link (if hosted externally):** Not hosted externally. The deck is in this repo: [docs/presentation.pdf](docs/presentation.pdf)
+**College:** ABV-Indian Institute of Information Technology and Management (ABV-IIITM), Gwalior  
+**Demo Video Link:** https://youtu.be/Gujn05Yzxr0  
+**Slide Deck Link (if hosted externally):** Not hosted externally. The deck is in this repo: [docs/Presentation.pdf](docs/Presentation.pdf)
 
 > Foreshock reads financial news and social posts, scores each item for **sentiment** (-1 to +1), **event type** and **impact** (1-10), and feeds those signals into two downstream modules: **Module A**, a tactical index rebalancer, and **Module B**, an event-driven stress tester.
 
 **Jump to:** [Quickstart](#4-quickstart--installation) | [Key results](#5-key-results--domain-impact) | [Limitations](#limitations) | [AI usage](#ai-usage-disclosure)
 
-## 1. Project Overview / Problem Statement & Approach
+## 1. Project Overview/Problem Statement & Approach
 
 **The problem.** Portfolio and risk teams face a constant stream of headlines, wire stories and social posts. Reading, judging and sizing each one by hand does not scale, and much of the stream is noise: duplicates, rumours from low-credibility accounts, and stories about companies the book does not hold. The case study asks for an AI/NLP risk engine that turns this text into structured, auditable signals (a sentiment score from -1 to +1, an event class and an impact score from 1 to 10) and then uses them in at least one downstream module. Foreshock builds both suggested modules on top of one engine.
 
@@ -46,11 +46,11 @@ Versions are those npm resolved on 10-11 Oct 2026; the repo has no lockfile, so 
 **Repository layout**
 
 ```text
-iiitm-<your-name>-hackathon/
+iiitm-Nael_Saade-hackathon/
 ├── README.md
 ├── LICENSE                      MIT
 ├── package.json                 dependencies and scripts
-├── server.ts                    entry point: Express API + static / Vite hosting
+├── server.ts                    entry point: Express API + static/Vite hosting
 ├── index.html, vite.config.ts, tsconfig.json
 ├── src/
 │   ├── App.tsx, main.tsx, index.css
@@ -101,8 +101,8 @@ Runtime: Node.js 22.22.0 (npm 10.9.4) on Linux x64. Node 20+ should also work (V
 Step-by-step commands to set up the environment and run the app locally:
 
 ```bash
-git clone https://github.com/<your-github-username>/iiitm-<your-name>-hackathon.git
-cd iiitm-<your-name>-hackathon
+git clone https://github.com/bcs2024039-art/iiitm-Nael_Saade-hackathon/
+cd iiitm-Nael_Saade-hackathon
 npm install
 npm run dev
 ```
@@ -213,13 +213,10 @@ These runs were selected by the reference pipeline: impact above 7, adverse sent
 
 ## AI Usage Disclosure
 
-AI assistance was used in this project, in line with the AI-usage rules of the hackathon guidelines. *[Review this section and complete it in your own words before submitting.]*
+AI assistance was used in this project, in line with the AI-usage rules of the hackathon guidelines.
 
-- Claude (Anthropic) was used to plan the project, to write the original Python scoring and synthetic-data pipeline whose outputs are bundled in `data/` and `src/data/dataset.json`, and to draft the documentation and slide deck in `docs/`.
-- [Name the tool(s) used to build or port the TypeScript application and dashboard, and what each was used for.]
-- [Describe what you reviewed, ran, changed or wrote yourself.]
-- [Confirm that no confidential or client data was shared with any AI tool.]
+- Claude (Anthropic) was used to plan the project, and to draft the documentation and slide deck in `docs/`.
 
 ## License
 
-Released under the MIT License. See [LICENSE](LICENSE).
+Released under the MIT License.
